@@ -17,20 +17,155 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <label id="menu">
-            <i class="fa fa-bars"></i>
-        </label>
-        <label class="logo">Digital India</label>
-        <ul>
+    <style>
+       
 
-            <li><a href="#"> Home </a></li>
-            <li><a href="#"> Service </a></li>
-            <li><a href="#"> Blog </a></li>
-            <li><a href="#"> About Us </a></li>
 
-        </ul>
-    </nav>
+        #nav
+        {
+            background: rgb(0, 19, 145);
+            height: 30px;
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 30px;
+
+        }
+        a
+        {
+            text-decoration: none;
+            color: aliceblue;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        body
+        {
+        margin:0px;
+        padding:0px;
+        overflow-x:hidden;
+        }
+
+        header
+        {
+        width:600%;
+        height:200px;
+        margin:auto;
+        //background: linear-gradient(to right, #ff9933, #ffffff, #138808);
+        }
+
+        .pic
+        {
+        width:18%;
+        height: 600px;
+        position:relative;
+        top:0px;
+        margin-left:-10px;
+        animation:ani1 12s infinite alternate;
+    
+        }
+
+        #mask
+        {
+            overflow: hidden;
+            margin: auto;width:100%;height:600px;
+        }
+
+        @keyframes ani1
+        {
+        10%{left:0%;}
+        20%{left:0%;}
+
+        30%{left:-18%;}
+        40%{left:-18%;}
+
+        50%{left:-36%;}
+        60%{left:-36%;}
+
+        70%{left:-54%;}
+        80%{left:-54%;}
+
+        90%{left:-72%;}
+        100%{left:-72%;}
+        }
+
+        .voption
+        {
+            background: #faf7ce;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px 0.3px rgb(167, 167, 167);
+        
+        }
+
+        #vision
+        {
+            //background-color: #138808;
+            justify-content: space-evenly;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap; 
+            padding: 60px;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        h2{
+            //background-color: #080a88;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        section
+        {
+            padding: 60px 10px;
+            text-align: center;
+
+        }
+        h2
+        {
+            font-family: sans-serif;
+            font-size: 35px;
+        }
+
+        
+
+    </style>
+
+    <div id="nav">
+    <a></a>
+        <nav id="option">
+            <a href=""> Home </a>
+            <a href=""> Blog </a>
+            <a href=""> Services </a>
+            <a href=""> About us </a>
+        </nav>
+    </div>
+    <div id="mask">
+
+        <header>
+
+            <img src="Images/p1.jpg" class="pic">
+            <img src="Images/p2.jpg" class="pic">
+            <img src="Images/p3.jpg" class="pic">
+            <img src="Images/p4.jpg" class="pic">
+            <img src="Images/p5.jpg" class="pic">
+
+        </header>
+        </div>
+
+        <section>
+            <h2>Our Vision for 2047</h2>
+            <div id="vision">
+
+            <div class="voption"> 🤖 AI & Automation</div>
+            <div class="voption"> 💰 Digital Economy</div>
+            <div class="voption"> 🏙️ Smart Cities</div>
+            <div class="voption"> 🌍 Global Leadership</div>
+
+            </div>
+        </section>
 </body>
 </html>
 </body>
